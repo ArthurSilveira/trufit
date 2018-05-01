@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif !important;
+  padding: 0;
+}
+
+/*.App-logo {*/
+  /*animation: App-logo-spin infinite 20s linear;*/
+  /*height: 80px;*/
+/*}*/
+
+
+
+/*@keyframes App-logo-spin {*/
+  /*from { transform: rotate(0deg); }*/
+  /*to { transform: rotate(360deg); }*/
+/*}*/
+
+.page-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-top: 9em;
+  padding-left: .75em;
+  padding-right: .75em;
+}
+
+.page-inner {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 73.5em;
+  min-height: calc(100vh);
+  /*background: gold;*/
+}
+
+.mid-section {
+  height: 35em;
+  background: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-footer {
+  height: 10em;
+  background: #efefef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hide {
+  display: none  !important;
+}
+
+@media screen and (max-width: 45.5em) {
+  .show-for-medium {
+    display: none !important;
+  }
+  .head-container {
+    align-items: flex-start !important;
+  }
+}
+
+@media screen and (min-width: 45.5em) {
+  .hide-for-medium {
+    display: none !important;
+  }
+}

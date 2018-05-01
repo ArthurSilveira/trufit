@@ -1,0 +1,7 @@
+.google-reviews {
+  height: 30em;
+  background: #efefef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
