@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './App.css'
 import PageHeader from './components/PageHeader.js'
+import PageFooter from './components/PageFooter.js'
 import Main from './components/Main.js'
 import logo from './assets/logo.svg'
 
@@ -18,7 +19,7 @@ class App extends Component {
         <div className='page-container'>
           <div className='page-inner'>
             <Main/>
-            <footer className='page-footer'>cool trendy footer</footer>
+            <PageFooter footerLogo={logo}/>
           </div>
         </div>
       </div>

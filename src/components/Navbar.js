@@ -3,18 +3,12 @@ import { Link } from 'react-router-dom'
 import PropTypes from "prop-types"
 import _ from 'lodash'
 
-// const pages = [
-//     { key: 'home', active: true, name: 'Home' },
-//     { key: 'about', name: 'About'},
-//     { key: 'claim', name: 'File a claim'}
-// ]
-
 class Navbar extends Component {
 
 
   renderMenuItems(menuItems) {
     return _.map(menuItems, (item, key) => {
-      if (!this.props.orientVertically) {
+      if (!this.props.dropdownStyle) {
         return (
           <Link to={`/${item}`} className="nav-item" key={key}>{item}</Link>
         )
@@ -29,16 +23,16 @@ class Navbar extends Component {
 
   render() {
 
-    if (!this.props.orientVertically) {
+    if (!this.props.dropdownStyle) {
       return (
-        <nav className='head-nav show-for-medium'>
+        <nav className='nav-component'>
           {this.renderMenuItems(this.props.menuItems)}
           {/*<div className='nav-active-bar'></div>*/}
         </nav>
       )
     } else {
       return (
-        <nav className='dropdown-head-nav hide-for-medium'>
+        <nav className='dropdown-nav-component'>
           {this.renderMenuItems(this.props.menuItems)}
         </nav>
       )
@@ -49,13 +43,13 @@ class Navbar extends Component {
 
 Navbar.propTypes = {
   menuItems: PropTypes.array.isRequired,
-  orientVertically: PropTypes.bool.isRequired,
+  dropdownStyle: PropTypes.bool.isRequired,
   toggleDropdown: PropTypes.func
 }
 
 Navbar.defaultProps = {
   menuItems: ['Home', 'About', 'Contact'],
-  orientVertically: false
+  dropdownStyle: false
 }
 
 export default Navbar

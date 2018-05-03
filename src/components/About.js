@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => (
   <div className='mid-section'>
-    <h1>The about page with some info!</h1>
+    <p>The about page with some info!</p>
   </div>
 )
 

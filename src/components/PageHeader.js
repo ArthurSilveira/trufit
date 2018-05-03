@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import Navbar from './Navbar.js'
 import PropTypes from 'prop-types'
+import Navbar from './Navbar.js'
+import { Link } from 'react-router-dom'
 import './styles/PageHeader.css'
 
 // const pages = [
@@ -32,7 +33,7 @@ class PageHeader extends Component {
         <div className='dropdown-mask'></div>
         <div className='dropdown-menu-container'>
           <div className={dropdownMenuClass}>
-            <Navbar orientVertically={true} menuItems={this.props.menuItems} toggleDropdown={this.toggleDropdown.bind(this)}/>
+            <Navbar dropdownStyle={true} menuItems={this.props.menuItems} toggleDropdown={this.toggleDropdown.bind(this)}/>
             <nav className='dropdown-button'>
               <a className='trufit-button' href="">{this.props.buttonCopy}</a>
             </nav>
@@ -49,16 +50,19 @@ class PageHeader extends Component {
       <header>
         <div className='head-container'>
           <div className='head-inner'>
-            <h1 className='head-image'>
-              <img src={this.props.headerLogo} alt="TRUFIT AUTOGLASS"/>
-            </h1>
-
+            <Link to='/' onClick={this.toggleDropdown.bind(this)}>
+              <h1 className='head-image'>
+                <img src={this.props.headerLogo} alt="TRUFIT AUTOGLASS"/>
+              </h1>
+            </Link>
             { /* medium and large screens */ }
-            <Navbar menuItems={this.props.menuItems}/>
-            <nav className='head-nav show-for-medium'>
+            <div className='nav-container show-for-medium'>
+              <Navbar menuItems={this.props.menuItems}/>
+            </div>
+            <nav className='nav-component show-for-medium'>
               <a className='head-button' href="">{this.props.buttonCopy}</a>
             </nav>
-            <nav className='head-nav hide-for-medium'>
+            <nav className='nav-component hide-for-medium'>
               <a className='show-dropdown-button' onClick={this.toggleDropdown.bind(this)}>
                 <span className={`burger-button ${burgerButtonState}`}></span>
               </a>

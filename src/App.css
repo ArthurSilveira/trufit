@@ -37,16 +37,8 @@
 }
 
 .mid-section {
-  height: 35em;
+  height: 25em;
   background: #FFF;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.page-footer {
-  height: 10em;
-  background: #efefef;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -60,9 +52,9 @@
   .show-for-medium {
     display: none !important;
   }
-  .head-container {
-    align-items: flex-start !important;
-  }
+  /*.head-container {*/
+    /*align-items: flex-start !important;*/
+  /*}*/
 }
 
 @media screen and (min-width: 45.5em) {

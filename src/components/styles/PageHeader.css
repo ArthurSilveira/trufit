@@ -18,6 +18,7 @@ header {
   padding-left: 1em;
   padding-right: 1em;
   z-index: 6;
+  /*background-color: transparent;*/
 
 }
 
@@ -31,10 +32,10 @@ header {
 
 .head-image {
   /*background: darkgoldenrod;*/
-  width: 7em;
+  width: 6em;
 }
 
-.head-nav {
+.nav-component {
   position: relative;
   display: flex;
   justify-content: flex-start;
@@ -93,7 +94,7 @@ header {
 }
 
 .burger-button:before {
-  transition-duration: .25s;
+  transition-duration: .15s;
   content: "";
   display: block;
   width: 26px;
@@ -103,7 +104,7 @@ header {
 }
 
 .burger-button:after {
-  transition-duration: .25s;
+  transition-duration: .15s;
   content: "";
   display: block;
   width: 26px;
@@ -174,9 +175,10 @@ header {
 
 .dropdown-menu-close {
   transform: translateY(-100%);
+  transition-duration: .4s;
 }
 
-.dropdown-head-nav {
+.dropdown-nav-component {
   display: flex;
   flex-flow: column;
   font-weight:  500 !important;
@@ -205,9 +207,22 @@ header {
   border-radius: 2em;
   padding: .75em 2em;
   white-space: nowrap;
-  font-size: 1.124em;
+  font-size: 1.25em;;
 }
 
 img {
  width: 100%;
 }
+
+
+@media screen and (max-width: 45.5em) {
+  header {
+    height: 6em;
+  }
+  /*.head-container {*/
+  /*align-items: flex-start !important;*/
+  /*}*/
+}
+
+/*IPv4 address:	192.168.1.37*/
+/*IPv4 DNS servers:	192.168.1.1*/
