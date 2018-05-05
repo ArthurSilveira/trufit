@@ -13,7 +13,7 @@ class GoogleReviews extends Component {
       secondsElapsed: 0,
       timeToSwap: false,
       reviewNumber: 0,
-      display: 'fadeInLeft'
+      display: null
     }
   }
 
@@ -75,7 +75,7 @@ class GoogleReviews extends Component {
         </div>
 
         <div className='review-author'>
-          <h4> - {currentReview['author_name']}</h4>
+          <h3> - {currentReview['author_name']}</h3>
         </div>
       </div>
     )
