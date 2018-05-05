@@ -21,8 +21,8 @@
   height: 100%;
   display: flex;
   margin-top: 9em;
-  padding-left: .75em;
-  padding-right: .75em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .page-inner {
@@ -32,13 +32,34 @@
   margin: 0 auto;
   width: 100%;
   max-width: 73.5em;
-  min-height: calc(100vh);
+  min-height: calc(100vh - 10em
+    );
   /*background: gold;*/
+}
+
+
+.section-wrapper {
+  text-align: left;
+  padding-top: 4em;
+}
+
+h2 {
+  font-size: 4em;
+  font-weight: bolder;
+  color: #767270;
 }
 
 .mid-section {
   height: 25em;
   background: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.home-mid-section {
+  height: 35em;
+  background: #f9f9f9;
   display: flex;
   align-items: center;
   justify-content: center;

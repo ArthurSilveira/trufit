@@ -39,9 +39,9 @@ class PageFooter extends Component {
             <Navbar menuItems={navItems}/>
           </div>
 
-          <div className='location-container'>
+          <div className='location-container show-for-medium'>
             <div className='map-container'>
-              <img src={map}/>
+              <img src={map} alt='TRUFIT Autoglass'/>
             </div>
             <div className='address-container'>
               <span>112 Carriage Lane</span>

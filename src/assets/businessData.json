@@ -1,0 +1,191 @@
+{
+   "html_attributions" : [],
+   "result" : {
+      "address_components" : [
+         {
+            "long_name" : "2428",
+            "short_name" : "2428",
+            "types" : [ "street_number" ]
+         },
+         {
+            "long_name" : "Palumbo Drive",
+            "short_name" : "Palumbo Dr",
+            "types" : [ "route" ]
+         },
+         {
+            "long_name" : "Lexington",
+            "short_name" : "Lexington",
+            "types" : [ "locality", "political" ]
+         },
+         {
+            "long_name" : "Fayette County",
+            "short_name" : "Fayette County",
+            "types" : [ "administrative_area_level_2", "political" ]
+         },
+         {
+            "long_name" : "Kentucky",
+            "short_name" : "KY",
+            "types" : [ "administrative_area_level_1", "political" ]
+         },
+         {
+            "long_name" : "United States",
+            "short_name" : "US",
+            "types" : [ "country", "political" ]
+         },
+         {
+            "long_name" : "40509",
+            "short_name" : "40509",
+            "types" : [ "postal_code" ]
+         }
+      ],
+      "adr_address" : "\u003cspan class=\"street-address\"\u003e2428 Palumbo Dr\u003c/span\u003e, \u003cspan class=\"locality\"\u003eLexington\u003c/span\u003e, \u003cspan class=\"region\"\u003eKY\u003c/span\u003e \u003cspan class=\"postal-code\"\u003e40509\u003c/span\u003e, \u003cspan class=\"country-name\"\u003eUSA\u003c/span\u003e",
+      "formatted_address" : "2428 Palumbo Dr, Lexington, KY 40509, USA",
+      "formatted_phone_number" : "(859) 241-3186",
+      "geometry" : {
+         "location" : {
+            "lat" : 38.0195476,
+            "lng" : -84.4485871
+         },
+         "viewport" : {
+            "northeast" : {
+               "lat" : 38.02105058029149,
+               "lng" : -84.44705856970849
+            },
+            "southwest" : {
+               "lat" : 38.01835261970849,
+               "lng" : -84.44975653029151
+            }
+         }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id" : "9b71aafb8cac4f1421f19c89f5ca9cc6633c0750",
+      "international_phone_number" : "+1 859-241-3186",
+      "name" : "Triple Crown Auto Glass",
+      "opening_hours" : {
+         "open_now" : true,
+         "periods" : [
+            {
+               "close" : {
+                  "day" : 1,
+                  "time" : "1700"
+               },
+               "open" : {
+                  "day" : 1,
+                  "time" : "0800"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 2,
+                  "time" : "1700"
+               },
+               "open" : {
+                  "day" : 2,
+                  "time" : "0800"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 3,
+                  "time" : "1700"
+               },
+               "open" : {
+                  "day" : 3,
+                  "time" : "0800"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 4,
+                  "time" : "1700"
+               },
+               "open" : {
+                  "day" : 4,
+                  "time" : "0800"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 5,
+                  "time" : "1700"
+               },
+               "open" : {
+                  "day" : 5,
+                  "time" : "0800"
+               }
+            }
+         ],
+         "weekday_text" : [
+            "Monday: 8:00 AM – 5:00 PM",
+            "Tuesday: 8:00 AM – 5:00 PM",
+            "Wednesday: 8:00 AM – 5:00 PM",
+            "Thursday: 8:00 AM – 5:00 PM",
+            "Friday: 8:00 AM – 5:00 PM",
+            "Saturday: Closed",
+            "Sunday: Closed"
+         ]
+      },
+      "place_id" : "ChIJw6gagFJFQogR7h4IibvQ2t0",
+      "rating" : 4.3,
+      "reference" : "CmRSAAAAMj7lR_hJB5OZ81Xyx0oPJJVJPi0oFl1I9QpQjMfWqf0bLHfVlf-wBvzumBJca2E7Eii_XhotP-gD_tFKHUCuy_aJeiERZ_DpyKLPn9n6OPbsR9dPTPdiztxIfc7m49HqEhCJdpXa5f2igoOXLYw3d0zbGhRGjb2u-8cpUbw-9Wy70cR19rqhjQ",
+      "reviews" : [
+         {
+            "author_name" : "Michelle Monticello",
+            "author_url" : "https://www.google.com/maps/contrib/111451053519491320895/reviews",
+            "language" : "en",
+            "profile_photo_url" : "https://lh5.googleusercontent.com/-BeLAVA75xJI/AAAAAAAAAAI/AAAAAAAACJQ/9N66-L02HNE/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg",
+            "rating" : 5,
+            "relative_time_description" : "a month ago",
+            "text" : "Great work and quick!  Shane (the owner) was the one who helped me out.  He was courteous and quick.  Oh, and the dog (Maple?) was awesome!  She completely made my day!",
+            "time" : 1520781436
+         },
+         {
+            "author_name" : "A. Singleton",
+            "author_url" : "https://www.google.com/maps/contrib/107680017858193407221/reviews",
+            "language" : "en",
+            "profile_photo_url" : "https://lh5.googleusercontent.com/-7QagGvLMRbM/AAAAAAAAAAI/AAAAAAAAArE/MpHRL-sxr0A/s128-c0x00000000-cc-rp-mo/photo.jpg",
+            "rating" : 5,
+            "relative_time_description" : "8 months ago",
+            "text" : "I'm a car guy through and through.   Triple Crown was great in helping me confirm the replacement glass was the identical replacement spec for my M3, had no problem having me spec the actual BMW part number for the molding (versus aftermarket piece) and I agreed to pay the $9 difference.  Came out to the house today to replace the glass.  Shane, the owner, did the work, was great!  Very professional, cleaned the glass, picked up every spec of materials",
+            "time" : 1503941484
+         },
+         {
+            "author_name" : "Morgan Bonner",
+            "author_url" : "https://www.google.com/maps/contrib/106800336783801337284/reviews",
+            "language" : "en",
+            "profile_photo_url" : "https://lh6.googleusercontent.com/-i6kfrhQ2Y-w/AAAAAAAAAAI/AAAAAAAAAAA/AIcfdXD1DwdSSok45noLR2pSt8-GnOryIQ/s128-c0x00000000-cc-rp-mo/photo.jpg",
+            "rating" : 5,
+            "relative_time_description" : "a year ago",
+            "text" : "Triple Crown Auto Glass repaired my cracked Totyota Highlander windshield at my home this morning and I couldn't be happier with the service.  I called my insurance company who recommended this local company to repair the glass.  A representative called me within 30 minutes of me calling my insurance company to schedule a date/time for repair.  The timing of the repair was set for Monday at my house.  The repairmen called me 30 minutes before they arrived.",
+            "time" : 1470665897
+         },
+         {
+            "author_name" : "Brian Mercer",
+            "author_url" : "https://www.google.com/maps/contrib/114289016982910565840/reviews",
+            "language" : "en",
+            "profile_photo_url" : "https://lh3.googleusercontent.com/-8JZ9jc52LSg/AAAAAAAAAAI/AAAAAAAAAAw/juSy1DndXz8/s128-c0x00000000-cc-rp-mo/photo.jpg",
+            "rating" : 5,
+            "relative_time_description" : "11 months ago",
+            "text" : "Triple Crown came to my place of work and replaced my windshield in less than 30 minutes.  It was done professionally and they did a very nice job.  Right on time and will be using them again.",
+            "time" : 1494341470
+         },
+         {
+            "author_name" : "maulana trowell",
+            "author_url" : "https://www.google.com/maps/contrib/103401806729249271822/reviews",
+            "language" : "en",
+            "profile_photo_url" : "https://lh6.googleusercontent.com/-Wo9IRr7YsZE/AAAAAAAAAAI/AAAAAAAAAB0/BYiAAVI824g/s128-c0x00000000-cc-rp-mo/photo.jpg",
+            "rating" : 5,
+            "relative_time_description" : "11 months ago",
+            "text" : "So I have been driving around and I see the rubber molding of my front windshield flapping on the window..... I'm a single female so I'm like ok now with my luck I'm going to be riding on New Circle Rd and my windshield is going to fly off my car.... Anyway I call Safelight becauseI remember their commercial.... They tell me that the little flapping rubber can't be repaired cause it would be a liability for them..... they say that they have to replace the entire windshield... ",
+            "time" : 1495674985
+         }
+      ],
+      "scope" : "GOOGLE",
+      "types" : [ "car_repair", "point_of_interest", "establishment" ],
+      "url" : "https://maps.google.com/?cid=15986319331181469422",
+      "utc_offset" : -240,
+      "vicinity" : "2428 Palumbo Drive, Lexington",
+      "website" : "http://www.triplecrownautoglass.com/"
+   },
+   "status" : "OK"
+}

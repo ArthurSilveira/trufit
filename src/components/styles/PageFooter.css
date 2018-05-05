@@ -1,7 +1,7 @@
 .footer-container {
   width: 100%;
   position: relative;
-  background: #fcfcfc;
+  /*background: #fcfcfc;*/
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -41,7 +41,6 @@
   flex-flow: column;
   padding-top: 1em;
   text-align: left;
-  /*width: 33.3%;*/
   /*margin-right: 5em;*/
 }
 
@@ -83,8 +82,9 @@
 
 .footer-under {
   width: 100%;
+  display: flex;
+  flex-flow: column;
 }
-
 
 .social-container > div {
   /*background: blueviolet;*/
@@ -109,4 +109,38 @@
 
 .copyright {
   display: flex;
+}
+
+@media screen and (max-width: 45.5em) {
+  .footer-inner {
+    flex-flow: column;
+    align-items: center;
+    padding: 2em 2em;
+  }
+  .brand-container {
+    max-width: 100%;
+    align-items: center;
+  }
+  .mission-container {
+    text-align: center;
+  }
+  .footer-inner > .nav-container {
+    text-align: center;
+    margin-top: 1em;
+  }
+  .footer-inner > .nav-container > .nav-component {
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer-inner > .nav-container > .nav-component > .nav-item {
+    margin: 1em 1em;
+    font-size: .75em;
+  }
+  .social-container > div {
+    justify-content: center;
+  }
+  .copyright {
+    justify-content: center;
+  }
 }

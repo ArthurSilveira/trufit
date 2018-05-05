@@ -1,7 +1,23 @@
 .google-reviews {
-  height: 30em;
-  background: #efefef;
+  /*height: 30em;*/
+  /*background: #efefef;*/
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 3em 7em;
+  height: 25em;
+  /*overflow: hidden;*/
+}
+
+.review-text {
+  color: #767270;
+  font-size: 1.05em;
+  line-height: 2.2;
+}
+
+.quote-marks {
+  font-family: 'Coustard', serif;
+  font-size: 2em;
+  margin: 0 .3em;
+  line-height: 1.1;
 }
