@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 // import PropTypes from 'prop-types'
 import './styles/GoogleReviews.css'
 import data from '../assets/businessData.json'
+import stars from '../assets/stars.svg'
 
 
 class GoogleReviews extends Component {
@@ -59,13 +60,23 @@ class GoogleReviews extends Component {
 
     return (
       <div className={`animated ${this.state.display}`}>
-        <h4>{currentReview['rating']} stars</h4>
-        <h3 className='review-text'>
-          <span className='quote-marks'>“</span>
-          {currentReview['text']}
-          <span className='quote-marks'>"</span>
-        </h3>
-        <h5> - {currentReview['author_name']}</h5>
+
+        <div className='review-rating'>
+          <img src={stars} alt=""/>
+        </div>
+
+
+        <div className='review-text'>
+          <h3>
+            <span className='quote-marks'>“</span>
+            {currentReview['text']}
+            <span className='quote-marks'>"</span>
+          </h3>
+        </div>
+
+        <div className='review-author'>
+          <h4> - {currentReview['author_name']}</h4>
+        </div>
       </div>
     )
 

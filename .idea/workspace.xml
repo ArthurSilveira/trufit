@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac680a81-da63-44e1-a620-c737e2c569f7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/stars.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/businessData.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/businessData.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/GoogleReviews.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GoogleReviews.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageFooter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageHeader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/styles/GoogleReviews.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/GoogleReviews.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/styles/PageFooter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/PageFooter.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GoogleReviews.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GoogleReviews.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/styles/GoogleReviews.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="102">
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -68,8 +62,8 @@
       <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="1022">
+              <caret line="80" selection-start-line="80" selection-end-line="84" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -77,8 +71,8 @@
       <file leaf-file-name="businessData.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assets/businessData.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="139" column="21" selection-start-line="139" selection-start-column="21" selection-end-line="139" selection-end-column="31" />
+            <state relative-caret-position="298">
+              <caret line="126" column="8" lean-forward="true" selection-start-line="126" selection-start-column="8" selection-end-line="126" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -104,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoogleReviews.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GoogleReviews.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/GoogleReviews.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+            <state relative-caret-position="612">
+              <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
               <folding>
                 <element signature="e#79#114#0" expanded="true" />
               </folding>
@@ -190,13 +184,13 @@
         <option value="$PROJECT_DIR$/src/components/About.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/assets/businessData.txt" />
-        <option value="$PROJECT_DIR$/src/assets/businessData.json" />
         <option value="$PROJECT_DIR$/src/components/Home.js" />
-        <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/components/PageHeader.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/components/styles/GoogleReviews.css" />
+        <option value="$PROJECT_DIR$/src/assets/businessData.json" />
         <option value="$PROJECT_DIR$/src/components/GoogleReviews.js" />
+        <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/components/styles/GoogleReviews.css" />
       </list>
     </option>
   </component>
@@ -217,8 +211,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1172" />
-    <option name="width" value="1388" />
+    <option name="x" value="1474" />
+    <option name="width" value="1086" />
     <option name="height" value="1417" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -324,18 +318,18 @@
       <workItem from="1524510462974" duration="26244000" />
       <workItem from="1524772613856" duration="2473000" />
       <workItem from="1525026759470" duration="7699000" />
-      <workItem from="1525109045349" duration="82175000" />
+      <workItem from="1525109045349" duration="85182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135990000" />
+    <option name="totallyTimeSpent" value="138997000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1172" y="0" width="1388" height="1417" extended-state="0" />
+    <frame x="1474" y="0" width="1086" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2521866" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3233645" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -693,13 +687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/businessData.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="139" column="21" selection-start-line="139" selection-start-column="21" selection-end-line="139" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/styles/Main.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -717,13 +704,6 @@
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
@@ -754,20 +734,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/styles/GoogleReviews.css">
+    <entry file="file://$PROJECT_DIR$/src/assets/businessData.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="298">
+          <caret line="126" column="8" lean-forward="true" selection-start-line="126" selection-start-column="8" selection-end-line="126" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/GoogleReviews.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        <state relative-caret-position="612">
+          <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
           <folding>
             <element signature="e#79#114#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1022">
+          <caret line="80" selection-start-line="80" selection-end-line="84" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/styles/GoogleReviews.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>
