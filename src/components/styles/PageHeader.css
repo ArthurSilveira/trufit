@@ -69,8 +69,8 @@ header {
   padding: .75em 2em;
   color: #00cc66 !important;
   white-space: nowrap;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: .2s;
+  transition: .2s;
 }
 
 .head-button:hover {

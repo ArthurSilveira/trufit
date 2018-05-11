@@ -78,7 +78,7 @@ PageHeader.propTypes = {
 }
 
 PageHeader.defaultProps = {
-  menuItems: ['home', 'about', 'contact'],
+  menuItems: ['about', 'coverage', 'contact'],
   buttonCopy: 'Hire Us'
 }
 

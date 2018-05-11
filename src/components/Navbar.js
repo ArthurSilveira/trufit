@@ -48,7 +48,7 @@ Navbar.propTypes = {
 }
 
 Navbar.defaultProps = {
-  menuItems: ['Home', 'About', 'Contact'],
+  menuItems: ['About', 'Contact'],
   dropdownStyle: false
 }
 
