@@ -6,12 +6,12 @@ import Contact from './Contact.js'
 
 const Main = () => (
   <main>
-      <Switch>
-        <Route exact path='/' component={Home}/>
-        <Route exact path='/home' component={Home}/>
-        <Route exact path='/about' component={About}/>
-        <Route exact path='/contact' component={Contact}/>
-      </Switch>
+    <Switch>
+      <Route exact path='/' component={Home}/>
+      <Route exact path='/home' component={Home}/>
+      <Route exact path='/about' component={About}/>
+      <Route exact path='/contact' component={Contact}/>
+    </Switch>
   </main>
 )
 

@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-// import PropTypes from 'prop-types'
 import './styles/GoogleReviews.css'
 import data from '../assets/businessData.json'
 import stars from '../assets/stars.svg'
@@ -11,7 +10,6 @@ class GoogleReviews extends Component {
 
     this.state = {
       secondsElapsed: 0,
-      timeToSwap: false,
       reviewNumber: 0,
       display: null
     }

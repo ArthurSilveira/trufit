@@ -4,12 +4,6 @@ import Navbar from './Navbar.js'
 import { Link } from 'react-router-dom'
 import './styles/PageHeader.css'
 
-// const pages = [
-//     { key: 'home', active: true, name: 'Home' },
-//     { key: 'about', name: 'About'},
-//     { key: 'claim', name: 'File a claim'}
-// ]
-
 class PageHeader extends Component {
   constructor(props) {
     super(props)
