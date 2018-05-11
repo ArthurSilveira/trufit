@@ -14,9 +14,13 @@ class PageHeader extends Component {
   }
 
   toggleDropdown () {
-    this.setState((prevState, props) => ({
+    this.setState((prevState) => ({
       dropdownOpen: !prevState.dropdownOpen
     }))
+  }
+
+  closeDropdown () {
+    this.setState({dropdownOpen: false})
   }
 
   renderDropdown () {
@@ -24,7 +28,7 @@ class PageHeader extends Component {
     let dropdownMenuClass = this.state.dropdownOpen ? 'dropdown-menu-open' : 'dropdown-menu-close';
     return (
       <div className={`dropdown hide-for-medium ${menuState}`}>
-        <div className='dropdown-mask'></div>
+        <div className='dropdown-mask'/>
         <div className='dropdown-menu-container'>
           <div className={`${dropdownMenuClass}`}>
             <Navbar dropdownStyle={true} menuItems={this.props.menuItems} toggleDropdown={this.toggleDropdown.bind(this)}/>
@@ -37,14 +41,14 @@ class PageHeader extends Component {
     )
   }
 
-  render() {
+  render () {
     console.log('now the state is: ', this.state.dropdownOpen)
     let burgerButtonState = this.state.dropdownOpen? 'close' : 'open'
     return (
       <header className='animated'>
         <div className='head-container'>
           <div className='head-inner animated fadeInDownBig'>
-            <Link to='/' onClick={this.toggleDropdown.bind(this)}>
+            <Link to='/' onClick={this.closeDropdown.bind(this)}>
               <h1 className='head-image'>
                 <img src={this.props.headerLogo} alt="TRUFIT AUTOGLASS"/>
               </h1>
