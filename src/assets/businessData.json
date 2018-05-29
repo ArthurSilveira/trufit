@@ -3,23 +3,23 @@
    "result" : {
       "address_components" : [
          {
-            "long_name" : "2428",
-            "short_name" : "2428",
+            "long_name" : "928",
+            "short_name" : "928",
             "types" : [ "street_number" ]
          },
          {
-            "long_name" : "Palumbo Drive",
-            "short_name" : "Palumbo Dr",
+            "long_name" : "Willow Pointe Drive",
+            "short_name" : "Willow Pointe Dr",
             "types" : [ "route" ]
          },
          {
-            "long_name" : "Lexington",
-            "short_name" : "Lexington",
+            "long_name" : "Louisville",
+            "short_name" : "Louisville",
             "types" : [ "locality", "political" ]
          },
          {
-            "long_name" : "Fayette County",
-            "short_name" : "Fayette County",
+            "long_name" : "Woodford County",
+            "short_name" : "Woodford County",
             "types" : [ "administrative_area_level_2", "political" ]
          },
          {
@@ -33,41 +33,41 @@
             "types" : [ "country", "political" ]
          },
          {
-            "long_name" : "40509",
-            "short_name" : "40509",
+            "long_name" : "40299",
+            "short_name" : "40299",
             "types" : [ "postal_code" ]
          }
       ],
-      "adr_address" : "\u003cspan class=\"street-address\"\u003e2428 Palumbo Dr\u003c/span\u003e, \u003cspan class=\"locality\"\u003eLexington\u003c/span\u003e, \u003cspan class=\"region\"\u003eKY\u003c/span\u003e \u003cspan class=\"postal-code\"\u003e40509\u003c/span\u003e, \u003cspan class=\"country-name\"\u003eUSA\u003c/span\u003e",
-      "formatted_address" : "2428 Palumbo Dr, Lexington, KY 40509, USA",
-      "formatted_phone_number" : "(859) 241-3186",
+      "adr_address" : "\u003cspan class=\"street-address\"\u003e928 Willow Pointe Dr\u003c/span\u003e, \u003cspan class=\"locality\"\u003eLouisville\u003c/span\u003e, \u003cspan class=\"region\"\u003eKY\u003c/span\u003e \u003cspan class=\"postal-code\"\u003e40299\u003c/span\u003e, \u003cspan class=\"country-name\"\u003eUSA\u003c/span\u003e",
+      "formatted_address" : "928 Willow Pointe Dr, Louisville, KY 40299, USA",
+      "formatted_phone_number" : "(502) 667-0182",
       "geometry" : {
          "location" : {
-            "lat" : 38.0195476,
-            "lng" : -84.4485871
+            "lat" : 38.2290243,
+            "lng" : -85.5188009
          },
          "viewport" : {
             "northeast" : {
-               "lat" : 38.02105058029149,
-               "lng" : -84.44705856970849
+               "lat" : 38.2303732802915,
+               "lng" : -85.51745191970851
             },
             "southwest" : {
-               "lat" : 38.01835261970849,
-               "lng" : -84.44975653029151
+               "lat" : 38.2276753197085,
+               "lng" : -85.52014988029151
             }
          }
       },
       "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
-      "id" : "9b71aafb8cac4f1421f19c89f5ca9cc6633c0750",
-      "international_phone_number" : "+1 859-241-3186",
-      "name" : "Triple Crown Auto Glass",
+      "id" : "f704c23fbc7f03743a9809689c1836daccfee33f",
+      "international_phone_number" : "+1 502-667-0182",
+      "name" : "TruFit Auto Glass",
       "opening_hours" : {
          "open_now" : true,
          "periods" : [
             {
                "close" : {
                   "day" : 1,
-                  "time" : "1700"
+                  "time" : "1900"
                },
                "open" : {
                   "day" : 1,
@@ -77,7 +77,7 @@
             {
                "close" : {
                   "day" : 2,
-                  "time" : "1700"
+                  "time" : "1900"
                },
                "open" : {
                   "day" : 2,
@@ -87,7 +87,7 @@
             {
                "close" : {
                   "day" : 3,
-                  "time" : "1700"
+                  "time" : "1900"
                },
                "open" : {
                   "day" : 3,
@@ -97,7 +97,7 @@
             {
                "close" : {
                   "day" : 4,
-                  "time" : "1700"
+                  "time" : "1900"
                },
                "open" : {
                   "day" : 4,
@@ -107,85 +107,113 @@
             {
                "close" : {
                   "day" : 5,
-                  "time" : "1700"
+                  "time" : "1900"
                },
                "open" : {
                   "day" : 5,
                   "time" : "0800"
                }
+            },
+            {
+               "close" : {
+                  "day" : 6,
+                  "time" : "1700"
+               },
+               "open" : {
+                  "day" : 6,
+                  "time" : "1000"
+               }
             }
          ],
          "weekday_text" : [
-            "Monday: 8:00 AM – 5:00 PM",
-            "Tuesday: 8:00 AM – 5:00 PM",
-            "Wednesday: 8:00 AM – 5:00 PM",
-            "Thursday: 8:00 AM – 5:00 PM",
-            "Friday: 8:00 AM – 5:00 PM",
-            "Saturday: Closed",
+            "Monday: 8:00 AM – 7:00 PM",
+            "Tuesday: 8:00 AM – 7:00 PM",
+            "Wednesday: 8:00 AM – 7:00 PM",
+            "Thursday: 8:00 AM – 7:00 PM",
+            "Friday: 8:00 AM – 7:00 PM",
+            "Saturday: 10:00 AM – 5:00 PM",
             "Sunday: Closed"
          ]
       },
-      "place_id" : "ChIJw6gagFJFQogR7h4IibvQ2t0",
-      "rating" : 4.3,
-      "reference" : "CmRSAAAAMj7lR_hJB5OZ81Xyx0oPJJVJPi0oFl1I9QpQjMfWqf0bLHfVlf-wBvzumBJca2E7Eii_XhotP-gD_tFKHUCuy_aJeiERZ_DpyKLPn9n6OPbsR9dPTPdiztxIfc7m49HqEhCJdpXa5f2igoOXLYw3d0zbGhRGjb2u-8cpUbw-9Wy70cR19rqhjQ",
+      "photos" : [
+         {
+            "height" : 312,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/101259374682312513451/photos\"\u003eTruFit Auto Glass\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAhmtTC15d_JwwRRH_8E6FMQZwZVEkctT-XOj-KSBLO0RntUeA8CDiRmebpRbwahRxGwl8SPAGINqdZ4deamc4UfbN_i6JN5YrThMwD83ZQ0YEsWMxTjXSu7rMwx9yXYjeEhCFhVoBWpK_b0IQfRS05SnKGhQFY8DrFrZ2eD3U-nCZK5ZwD4Euzw",
+            "width" : 528
+         },
+         {
+            "height" : 2560,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/101801834526732510823/photos\"\u003eLisa Sole\u003c/a\u003e"
+            ],
+            "photo_reference" : "CmRaAAAAMhoawF35pMi0YL-Vse7AFMqAoAkWwJn4mwD9Z8LZ0xLxE4F3Y7uuKal2-RDRbSFGRgrLcEpGpBpv_aY8uKCnJ0GPsBM5eooLiBZMKLGbYysOlooBaEFzAacdIS_Xd9xsEhACttFQfcz_crLipmZ4AhhAGhT9gmzRhcXjS811k2kKAOiF0V1YFg",
+            "width" : 1440
+         }
+      ],
+      "place_id" : "ChIJfZVRMJxrQogRr0Syoah9gco",
+      "rating" : 5,
+      "reference" : "CmRSAAAAoOF9g79jL0ec6jWhbpmDdkqWsZOxQ-NpTSfxQ86o8xSYPQFcux8PlYdaKpZDmr8aDU_gb_wyRUfeEe7id8LC15XfkoVPOeIFzAOsyc-BSs1J9uYhOVVTHFmzKb8ke-GpEhDWH0kDX06xv-LneyvhmukDGhTlloQq1VuMQF7v5GY44ccDvIjaXQ",
       "reviews" : [
          {
-            "author_name" : "Michelle Monticello",
-            "author_url" : "https://www.google.com/maps/contrib/111451053519491320895/reviews",
+            "author_name" : "Rachel Glenn",
+            "author_url" : "https://www.google.com/maps/contrib/117059198002213349757/reviews",
             "language" : "en",
-            "profile_photo_url" : "https://lh5.googleusercontent.com/-BeLAVA75xJI/AAAAAAAAAAI/AAAAAAAACJQ/9N66-L02HNE/s128-c0x00000000-cc-rp-mo-ba3/photo.jpg",
+            "profile_photo_url" : "https://lh6.googleusercontent.com/-AZvkAJKok-U/AAAAAAAAAAI/AAAAAAAADcM/eL0Z9Oz61wQ/s128-c0x00000000-cc-rp-mo/photo.jpg",
             "rating" : 5,
-            "relative_time_description" : "a month ago",
-            "text" : "Great work and quick!  Shane (the owner) was the one who helped me out.  He was courteous and quick.  Oh, and the dog (Maple?) was awesome!  She completely made my day!",
-            "time" : 1520781436
+            "relative_time_description" : "2 months ago",
+            "text" : "Quality work performed in a timely fashion. Matthew was communicative and personable throughout the process. If I ever need another window or windshield replaced in my car, I would absolutely use this company again. Highly recommend.",
+            "time" : 1520432424
          },
          {
-            "author_name" : "A. Singleton",
-            "author_url" : "https://www.google.com/maps/contrib/107680017858193407221/reviews",
+            "author_name" : "Michael Ojeda",
+            "author_url" : "https://www.google.com/maps/contrib/111258756234690104542/reviews",
             "language" : "en",
-            "profile_photo_url" : "https://lh5.googleusercontent.com/-7QagGvLMRbM/AAAAAAAAAAI/AAAAAAAAArE/MpHRL-sxr0A/s128-c0x00000000-cc-rp-mo/photo.jpg",
+            "profile_photo_url" : "https://lh3.googleusercontent.com/-4g4bonq9I-0/AAAAAAAAAAI/AAAAAAAAAoo/jLvf1zaoeao/s128-c0x00000000-cc-rp-mo/photo.jpg",
             "rating" : 5,
-            "relative_time_description" : "8 months ago",
-            "text" : "I'm a car guy through and through.   Triple Crown was great in helping me confirm the replacement glass was the identical replacement spec for my M3.",
-            "time" : 1503941484
+            "relative_time_description" : "4 months ago",
+            "text" : "My entire experience with TruFit was a pleasure! They make it easy to get the job done! \n\nMatthew kept me up to date with my appointment time frame, followed through with telephone reminders and confirmations, and I feel that they really kept my own schedule in consideration when booking the time slot.",
+            "time" : 1515700988
          },
          {
-            "author_name" : "Morgan Bonner",
-            "author_url" : "https://www.google.com/maps/contrib/106800336783801337284/reviews",
+            "author_name" : "Michael Linton",
+            "author_url" : "https://www.google.com/maps/contrib/107074561715436181344/reviews",
             "language" : "en",
-            "profile_photo_url" : "https://lh6.googleusercontent.com/-i6kfrhQ2Y-w/AAAAAAAAAAI/AAAAAAAAAAA/AIcfdXD1DwdSSok45noLR2pSt8-GnOryIQ/s128-c0x00000000-cc-rp-mo/photo.jpg",
+            "profile_photo_url" : "https://lh6.googleusercontent.com/-uNVrFxk69yI/AAAAAAAAAAI/AAAAAAAAAAA/AIcfdXCYsv9ML6Hg4F41lbnLWn4jqqJ6dA/s128-c0x00000000-cc-rp-mo/photo.jpg",
             "rating" : 5,
-            "relative_time_description" : "a year ago",
-            "text" : "Triple Crown Auto Glass repaired my cracked Totyota Highlander windshield at my home this morning and I couldn't be happier with the service.  ",
-            "time" : 1470665897
+            "relative_time_description" : "5 months ago",
+            "text" : "This was the first and only call I needed to make in order to replace a shattered back window. Matthew Morrison was incredibly professional, upstanding, and ready to help me fix the issue. He picked up and scheduled a repair in the first phone call. He was able to complete the job and be on site in less than 2 hours.",
+            "time" : 1513180432
          },
          {
-            "author_name" : "Brian Mercer",
-            "author_url" : "https://www.google.com/maps/contrib/114289016982910565840/reviews",
+            "author_name" : "Brandy Gibson",
+            "author_url" : "https://www.google.com/maps/contrib/101572648473076906990/reviews",
             "language" : "en",
-            "profile_photo_url" : "https://lh3.googleusercontent.com/-8JZ9jc52LSg/AAAAAAAAAAI/AAAAAAAAAAw/juSy1DndXz8/s128-c0x00000000-cc-rp-mo/photo.jpg",
+            "profile_photo_url" : "https://lh5.googleusercontent.com/-c43-LN_dRmA/AAAAAAAAAAI/AAAAAAAAABA/DOOxPjDi2Ac/s128-c0x00000000-cc-rp-mo/photo.jpg",
             "rating" : 5,
-            "relative_time_description" : "11 months ago",
-            "text" : "Triple Crown came to my place of work and replaced my windshield in less than 30 minutes.  It was done professionally and they did a very nice job.  Right on time and will be using them again.",
-            "time" : 1494341470
+            "relative_time_description" : "5 months ago",
+            "text" : "Matthew is fantastic! He has helped me a couple of times and each time he was prompt, professional and always a pleasure to work with. I highly recommend this company when in need. Thank you so much Matthew for your help! You truly do care about the community.",
+            "time" : 1511799235
          },
          {
-            "author_name" : "maulana trowell",
-            "author_url" : "https://www.google.com/maps/contrib/103401806729249271822/reviews",
+            "author_name" : "Lisa Reynolds",
+            "author_url" : "https://www.google.com/maps/contrib/117325594425448820253/reviews",
             "language" : "en",
-            "profile_photo_url" : "https://lh6.googleusercontent.com/-Wo9IRr7YsZE/AAAAAAAAAAI/AAAAAAAAAB0/BYiAAVI824g/s128-c0x00000000-cc-rp-mo/photo.jpg",
+            "profile_photo_url" : "https://lh4.googleusercontent.com/-qWDiijatxiw/AAAAAAAAAAI/AAAAAAAAAAA/AIcfdXBfNwcolNrP-ND7rWDTHODrQxVMkQ/s128-c0x00000000-cc-rp-mo/photo.jpg",
             "rating" : 5,
-            "relative_time_description" : "11 months ago",
-            "text" : "So I have been driving around and I see the rubber molding of my front windshield flapping on the window...",
-            "time" : 1495674985
+            "relative_time_description" : "7 months ago",
+            "text" : "Matthew is a perfectionist! He is also very knowledgeable, professional, efficient and genuine. He replaced the windshield in my husband's truck in the parking lot of my work.  A job well done!",
+            "time" : 1508255457
          }
       ],
       "scope" : "GOOGLE",
       "types" : [ "car_repair", "point_of_interest", "establishment" ],
-      "url" : "https://maps.google.com/?cid=15986319331181469422",
+      "url" : "https://maps.google.com/?cid=14592082430877910191",
       "utc_offset" : -240,
-      "vicinity" : "2428 Palumbo Drive, Lexington",
-      "website" : "http://www.triplecrownautoglass.com/"
+      "vicinity" : "928 Willow Pointe Drive, Louisville",
+      "website" : "http://www.trufitautoglass.com/"
    },
    "status" : "OK"
 }

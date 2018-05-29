@@ -6,8 +6,9 @@
   justify-content: center;
   padding: 3em 10em;
   height: 23em;
-  /*overflow: hidden;*/
+  overflow: hidden;
   color: #a09c98;
+  box-sizing: border-box;
 }
 
 .review-rating {

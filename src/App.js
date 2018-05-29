@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <PageHeader headerLogo={logo} buttonCopy='File a Claim'/>
+        <PageHeader headerLogo={logo} buttonCopy='File a claim'/>
         <div className='page-container animated fadeIn'>
           <div className='page-inner'>
             <Main/>
