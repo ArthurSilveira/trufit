@@ -13,12 +13,11 @@ hr {
 .photo > img {
   width: 100%;
   height: auto;
-  transform: translateY(-10em);
 }
 
 @media screen and (max-width: 45.5em) {
   .photo {
-    height: 30em;
+    height: 15em;
   }
   .photo > img {
     height: 100%;

@@ -10,8 +10,6 @@ const Home = () => (
     <div className='photo'>
       <img src="https://www.aaa.com/AAA/common/AAR/images/ws.jpg" alt="404"/>
     </div>
-    <br/>
-    <br/>
     <hr/>
     <LandingCards/>
     <hr/>
