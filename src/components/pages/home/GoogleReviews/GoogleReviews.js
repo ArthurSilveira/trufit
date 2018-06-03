@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import './styles/GoogleReviews.css'
-import data from '../assets/businessData.json'
-import stars from '../assets/stars.svg'
+import './GoogleReviews.css'
+import data from '../../../../assets/businessData.json'
+import stars from '../../../../assets/stars.svg'
 
 
 class GoogleReviews extends Component {
@@ -20,9 +20,9 @@ class GoogleReviews extends Component {
       secondsElapsed: prevState.secondsElapsed + 1
     }))
 
-    // When 5 seconds have elapsed, hide current review then wait a second and
+    // When 6 seconds have elapsed, hide current review then wait a second and
     // show the next one.
-    if ( (this.state.secondsElapsed % 5) === 0 ) {
+    if ( (this.state.secondsElapsed % 6) === 0 ) {
       this.setState({display: 'fadeOutRight'})
       setTimeout( () => {
         this.swapReviews()
@@ -62,8 +62,6 @@ class GoogleReviews extends Component {
         <div className='review-rating'>
           <img src={stars} alt=""/>
         </div>
-
-
         <div className='review-text'>
           <h3>
             <span className='quote-marks'>“</span>
@@ -71,7 +69,6 @@ class GoogleReviews extends Component {
             <span className='quote-marks'>"</span>
           </h3>
         </div>
-
         <div className='review-author'>
           <h3> - {currentReview['author_name']}</h3>
         </div>

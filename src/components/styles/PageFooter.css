@@ -1,7 +1,7 @@
 .footer-container {
   width: 100%;
   position: relative;
-  /*background: #fcfcfc;*/
+  /*background: #eeeeee;*/
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -11,6 +11,7 @@
 
 .footer-inner {
   /*background: coral;*/
+  width: 100%;
   width: 100%;
   display: flex;
   justify-content: space-between;

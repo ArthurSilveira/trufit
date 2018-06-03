@@ -1,0 +1,27 @@
+hr {
+  width: 8em;
+  color: darkgrey !important;
+  border: 1px solid #efefef;
+}
+
+.photo {
+  height: 25em;
+  width: 100%;
+  overflow: hidden;
+}
+
+.photo > img {
+  width: 100%;
+  height: auto;
+  transform: translateY(-10em);
+}
+
+@media screen and (max-width: 45.5em) {
+  .photo {
+    height: 30em;
+  }
+  .photo > img {
+    height: 100%;
+    width: auto;
+  }
+}

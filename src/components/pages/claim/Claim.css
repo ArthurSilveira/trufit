@@ -1,0 +1,6 @@
+.contact-form {
+  display: flex;
+  flex-flow: column;
+  width: 80%;
+  max-width: 32em;
+}

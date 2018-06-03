@@ -1,0 +1,36 @@
+.landing-cards {
+  /*background: #0d71bb;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 0;
+}
+
+.card-container {
+  /*background: yellow;*/
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 33%;
+  padding: 1em 2em;
+}
+
+.card-image {
+  height: 50px;
+  width: 50px;
+}
+
+.card-text {
+  font-size: .9em;
+}
+
+@media screen and (max-width: 45.5em) {
+  .landing-cards {
+    /*background: #0d71bb;*/
+    flex-flow: column;
+  }
+  .card-container {
+    width: 100%;
+    padding: 1em 0;
+  }
+}

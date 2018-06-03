@@ -1,8 +1,16 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: 'Montserrat', sans-serif;
   text-rendering: geometricPrecision;
   line-height: 1.2;
 }
@@ -14,7 +22,7 @@ img {
 
 a, button {
   cursor: pointer;
-  /*color: #0066ff !important;*/
   color: #53585f !important;
   text-transform: capitalize;
+  text-decoration: none;
 }

@@ -33,7 +33,7 @@ class PageHeader extends Component {
           <div className={`${dropdownMenuClass}`}>
             <Navbar dropdownStyle={true} menuItems={this.props.menuItems} toggleDropdown={this.toggleDropdown.bind(this)}/>
             <nav className='dropdown-button'>
-              <a className='trufit-button' href="">{this.props.buttonCopy}</a>
+              <Link to='/claim' className='trufit-button'>{this.props.buttonCopy}</Link>
             </nav>
           </div>
         </div>
@@ -49,16 +49,16 @@ class PageHeader extends Component {
         <div className='head-container'>
           <div className='head-inner animated fadeInDownBig'>
             <Link to='/' onClick={this.closeDropdown.bind(this)}>
-              <h1 className='head-image'>
+              <div className='head-image'>
                 <img src={this.props.headerLogo} alt="TRUFIT AUTOGLASS"/>
-              </h1>
+              </div>
             </Link>
             { /* medium and large screens */ }
             <div className='nav-container show-for-medium'>
               <Navbar menuItems={this.props.menuItems}/>
             </div>
             <nav className='nav-component show-for-medium'>
-              <a className='head-button' href="">{this.props.buttonCopy}</a>
+              <Link to='/claim' className='head-button'>{this.props.buttonCopy}</Link>
             </nav>
             <nav className='nav-component hide-for-medium'>
               <a className='show-dropdown-button' onClick={this.toggleDropdown.bind(this)}>
