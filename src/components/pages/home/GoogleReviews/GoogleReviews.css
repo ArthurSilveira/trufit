@@ -16,7 +16,8 @@
 }
 
 .review-rating > img {
-  width: 8em;
+  width: 9em;
+  height: auto;
 }
 
 .review-text > h3 {
