@@ -26,6 +26,7 @@ const Home = () => (
       </nav>
       <br/>
       <br/>
+      <br/>
     </div>
     <hr/>
     <br/>
