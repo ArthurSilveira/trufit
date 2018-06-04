@@ -5,15 +5,12 @@ header {
   left: 0;
   top: 0;
   z-index: 6;
-  /*background: #83ff1c;*/
+  background: #fff;
 }
 
 .head-container {
   position: relative;
-  background-color: hsla(0,0%,100%,.97);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background: #fff;
   height: 100%;
   padding-left: 1em;
   padding-right: 1em;
@@ -37,16 +34,15 @@ header {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  font-size: 1.2em;
-  font-weight: 700 !important;
+  font-size: 1.1em;
+  font-weight: 700;
 }
 
 .nav-item {
   display: block;
   text-align: center;
-  font-size: 1.124em;
   line-height: 2.556;
-  margin: 0 25px
+  margin: 0 .75em;
 }
 
 .nav-active-bar {
@@ -66,8 +62,8 @@ header {
   padding: .75em 2em;
   color: #00cc66 !important;
   white-space: nowrap;
-  -webkit-transition: .2s;
-  transition: .2s;
+  -webkit-transition: background-color .2s;
+  transition: background-color .2s;
 }
 
 .head-button:hover {
@@ -152,7 +148,7 @@ header {
 .dropdown-menu-container {
   position: absolute;
   width: 100%;
-  top: 6em;
+  top: 5em;
   right: 0;
   bottom: 0;
   left: 0;
@@ -162,7 +158,7 @@ header {
 
 .dropdown-menu-open {
   width: 100%;
-  padding: 2em;
+  padding: 0 2em 2em 2em;
   border-radius: 0 0 25px 25px;
   background: #fff;
   -webkit-box-shadow: 0 3px 13px 0 rgba(0,0,0,.5);
@@ -178,16 +174,16 @@ header {
 .dropdown-nav-component {
   display: flex;
   flex-flow: column;
-  font-weight:  500 !important;
+  font-weight:  600;
 }
 
 .dropdown-nav-item {
   display: block;
   width: 100%;
-  text-align: left !important;
-  font-size: 1.3em;
+  text-align: left;
+  font-size: 1.1em;
   line-height: 2;
-  margin: 10px 0;
+  margin: .5em 0;
   border-bottom: 1px solid #d8d8d8;
 }
 
@@ -202,9 +198,9 @@ header {
   color: #fff !important;
   border: 2px solid #00cc66;
   border-radius: 2em;
-  padding: .75em 2em;
+  padding: .5em 1.5em;
   white-space: nowrap;
-  font-size: 1.25em;;
+  font-size: 1.2em;;
 }
 
 img {
@@ -212,14 +208,15 @@ img {
 }
 
 
-@media screen and (max-width: 45.5em) {
+@media screen and (max-width: 45em) {
   header {
-    height: 6em;
+    height: 5em;
   }
-  /*.head-container {*/
-  /*align-items: flex-start !important;*/
-  /*}*/
 }
 
-/*IPv4 address:	192.168.1.37*/
-/*IPv4 DNS servers:	192.168.1.1*/
+@media screen and (max-width: 55em) {
+  .head-button {
+    padding: .75em 1em;
+    font-size: .9em;
+  }
+}

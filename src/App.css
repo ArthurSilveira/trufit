@@ -7,19 +7,16 @@
   width: 100%;
   height: 100%;
   display: flex;
+  flex-flow: column;
   margin-top: 9em;
-  padding-left: 1em;
-  padding-right: 1em;
 }
 
-.page-inner {
+.center-row {
   display: flex;
-  flex-flow: column;
-  justify-content: space-between;
+  align-items: center;
   margin: 0 auto;
   width: 100%;
   max-width: 73.5em;
-  min-height: calc(100vh);
 }
 
 .section-wrapper {
@@ -45,7 +42,7 @@
   display: none  !important;
 }
 
-@media screen and (max-width: 45.5em) {
+@media screen and (max-width: 45em) {
   .show-for-medium {
     display: none !important;
   }
@@ -54,7 +51,7 @@
   }
 }
 
-@media screen and (min-width: 45.5em) {
+@media screen and (min-width: 45em) {
   .hide-for-medium {
     display: none !important;
   }

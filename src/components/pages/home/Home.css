@@ -5,7 +5,7 @@ hr {
 }
 
 .photo {
-  height: 25em;
+  max-height: 30em;
   width: 100%;
   overflow: hidden;
 }

@@ -46,7 +46,7 @@ class PageHeader extends Component {
     let burgerButtonState = this.state.dropdownOpen? 'close' : 'open'
     return (
       <header className='animated'>
-        <div className='head-container'>
+        <div className='center-row head-container'>
           <div className='head-inner animated fadeInDownBig'>
             <Link to='/' onClick={this.closeDropdown.bind(this)}>
               <div className='head-image'>
@@ -82,7 +82,7 @@ PageHeader.propTypes = {
 }
 
 PageHeader.defaultProps = {
-  menuItems: ['about', 'coverage', 'contact'],
+  menuItems: ['about', 'services', 'coverage', 'contact'],
   buttonCopy: 'Hire Us'
 }
 

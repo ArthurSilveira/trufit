@@ -28,7 +28,6 @@ class Navbar extends Component {
       return (
         <nav className='nav-component'>
           {this.renderMenuItems(this.props.menuItems)}
-          {/*<div className='nav-active-bar'></div>*/}
         </nav>
       )
     } else {

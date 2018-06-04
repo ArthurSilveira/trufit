@@ -6,7 +6,7 @@
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  padding: 2em 0;
+  padding: 2em 1em;
 }
 
 .footer-inner {
@@ -23,7 +23,6 @@
   flex-flow: column;
   justify-content: flex-start;
   max-width: 33.3%;
-  /*margin-right: 5em;*/
 }
 
 .footer-image {
@@ -113,7 +112,7 @@
   display: flex;
 }
 
-@media screen and (max-width: 45.5em) {
+@media screen and (max-width: 45em) {
   .footer-inner {
     flex-flow: column;
     align-items: center;

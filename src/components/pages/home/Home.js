@@ -31,12 +31,18 @@ const landingCardsInfo = [
 
 const Home = () => (
   <div className='home'>
-    <GoogleReviews/>
-    <div className='photo'>
-      <img src="https://www.aaa.com/AAA/common/AAR/images/ws.jpg" alt="404"/>
+    <div className='entire-viewport'>
+      <div className='photo'>
+        <img src="https://www.aaa.com/AAA/common/AAR/images/ws.jpg" alt="404"/>
+      </div>
+      <div className='center-row'>
+        <GoogleReviews/>
+      </div>
     </div>
-    <br/>
-    <LandingCards info={landingCardsInfo}/>
+    <hr/>
+    <div className='center-row'>
+      <LandingCards info={landingCardsInfo}/>
+    </div>
     <div className='bottom-cta'>
       <br/>
       <br/>
