@@ -117,7 +117,7 @@
   .footer-inner {
     flex-flow: column;
     align-items: center;
-    padding: 2em 2em;
+    padding: 2em 1em;
   }
   .brand-container {
     max-width: 100%;

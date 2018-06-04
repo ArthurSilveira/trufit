@@ -36,10 +36,7 @@ const Home = () => (
       <img src="https://www.aaa.com/AAA/common/AAR/images/ws.jpg" alt="404"/>
     </div>
     <br/>
-    {/*<br/>*/}
-    {/*<hr/>*/}
     <LandingCards info={landingCardsInfo}/>
-    <hr/>
     <div className='bottom-cta'>
       <br/>
       <br/>
@@ -62,10 +59,6 @@ const Home = () => (
       <br/>
       <br/>
     </div>
-    <hr/>
-    <br/>
-    <br/>
-    <br/>
   </div>
 )
 
