@@ -6,6 +6,7 @@ import LandingCards from "./LandinCards/LandingCards";
 import ribbonIcon from '../../../assets/icons/certificate-icon.svg'
 import shieldIcon from '../../../assets/icons/guarantee-icon.svg'
 import starIcon from '../../../assets/icons/quality-icon.svg'
+import glassFix from '../../../assets/glass-fix.svg'
 
 const landingCardsInfo = [
   {
@@ -44,11 +45,17 @@ const Home = () => (
       <br/>
       <br/>
       <br/>
+      <div className='bottom-cta-img'>
+        <img src={glassFix} alt="404"/>
+      </div>
+      <br/>
+      <br/>
+      <h5>Just fill out our easy form and our professionals will  handle the rest.</h5>
+      <br/>
       <nav className='dropdown-button'>
         <Link to='/claim' className='trufit-button'>Get Started</Link>
       </nav>
       <br/>
-      <h5>Just fill out our easy form and our professionals will  handle the rest.</h5>
       <br/>
       <br/>
       <br/>
