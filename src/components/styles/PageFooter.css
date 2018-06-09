@@ -6,7 +6,7 @@
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  padding: 2em 1em;
+  padding-bottom: 2em;
 }
 
 .footer-inner {
@@ -116,7 +116,7 @@
   .footer-inner {
     flex-flow: column;
     align-items: center;
-    padding: 2em 1em;
+    padding: 2em 0;
   }
   .brand-container {
     max-width: 100%;

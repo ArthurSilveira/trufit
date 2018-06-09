@@ -12,8 +12,6 @@ header {
   position: relative;
   background: #fff;
   height: 100%;
-  padding-left: 1em;
-  padding-right: 1em;
   z-index: 6;
 }
 
