@@ -1,5 +1,5 @@
 import React from 'react'
-import googleMapImage from '../../../assets/images/google-map.png'
+import googleMapImage from '../../../assets/images/google-map-new.png'
 
 const Coverage = () => (
   <div className='center-row'>

@@ -33,3 +33,22 @@
   color: #0066ff;
   margin-bottom: .3em;
 }
+
+@media screen and (max-width: 45em) {
+  .services-content {
+    flex-flow: column;
+    margin: 2em 0 2em 0;
+  }
+  .services-left-side {
+    width: 100%;
+  }
+  .services-left-side > .services-image {
+    margin: 2em 0;
+  }
+  .services-right-side {
+    width: 100%;
+  }
+  .services-info {
+    text-align: center;
+  }
+}

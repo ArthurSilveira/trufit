@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: flex-start;
   width: 100%;
-  padding-bottom: 5em;
+  padding-bottom: 2em;
 }
 
 .content-info {
@@ -27,13 +27,14 @@
 }
 
 .carousel {
-  max-height: 30em;
+  max-height: 27em;
   margin: 1em 0 !important;
 }
 
 @media screen and (max-width: 45em) {
   .about-content {
     flex-flow: column;
+    padding-bottom: 1em;
   }
   .content-info, .content-image, .carousel {
     max-width: 100%;
@@ -43,6 +44,6 @@
     flex-flow: column !important;
   }
   .carousel {
-    max-height: 20em;
+    max-height: 13em;
   }
 }
