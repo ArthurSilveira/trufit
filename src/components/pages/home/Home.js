@@ -7,6 +7,7 @@ import ribbonIcon from '../../../assets/icons/certificate-icon.svg'
 import shieldIcon from '../../../assets/icons/guarantee-icon.svg'
 import starIcon from '../../../assets/icons/quality-icon.svg'
 import glassFix from '../../../assets/glass-fix.svg'
+import landingPhoto from '../../../assets/images/landing-photo.jpg'
 
 const landingCardsInfo = [
   {
@@ -33,7 +34,7 @@ const Home = () => (
   <div className='home'>
     <div className='entire-viewport'>
       <div className='photo'>
-        <img src="https://www.aaa.com/AAA/common/AAR/images/ws.jpg" alt="404"/>
+        <img src={landingPhoto} alt="404"/>
       </div>
       <div className='center-row'>
         <GoogleReviews/>

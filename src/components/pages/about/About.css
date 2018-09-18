@@ -19,7 +19,7 @@
 }
 
 .content-image {
-  width: 55%;
+  min-width: 40%;
 }
 
 .glass-image {
@@ -27,8 +27,8 @@
 }
 
 .carousel {
-  max-width: 35em;
-  margin-bottom: 10em;
+  max-height: 30em;
+  margin: 1em 0 !important;
 }
 
 @media screen and (max-width: 45em) {
@@ -41,5 +41,8 @@
   }
   .about-content > .center-row {
     flex-flow: column !important;
+  }
+  .carousel {
+    max-height: 20em;
   }
 }

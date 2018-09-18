@@ -34,6 +34,12 @@
   color: #767270;
 }
 
+.section-subtitle {
+  color: #44403e;
+  font-size: 1em;
+  font-weight: 600;
+}
+
 .hide {
   display: none  !important;
 }

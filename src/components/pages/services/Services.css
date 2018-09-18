@@ -1,0 +1,35 @@
+.services-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 2em 0 3em 0;
+}
+
+.services-left-side {
+  width: 45%;
+}
+
+.services-left-side > p {
+  margin-bottom: 2em;
+}
+
+.services-right-side {
+  width: 50%;
+}
+
+.services-info {
+  display: flex;
+  flex-flow: column;
+  text-align: right;
+}
+
+.services-phone-number {
+  font-size: 1.8em;
+  font-weight: 800;
+  color: #00cc66;
+  margin: .3em 0;
+}
+
+.services-email {
+  color: #0066ff;
+  margin-bottom: .3em;
+}

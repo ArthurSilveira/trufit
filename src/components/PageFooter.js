@@ -3,13 +3,13 @@ import PropTypes from 'prop-types'
 import Navbar from './Navbar.js'
 import { SocialIcons } from 'react-social-icons'
 import './styles/PageFooter.css'
-import map from '../assets/map.svg'
+import map from '../assets/map.png'
 import { Link } from 'react-router-dom'
 
 const socialUrls = [
-  'http://twitter.com/Arthur_tweets_',
-  'http://facebook.com/arthur.s.silveira',
-  'http://www.instagram.com/_aartvark_/'
+  'http://twitter.com/TruFitAutoGlass',
+  'https://www.facebook.com/TruFitAutoGlass/',
+  'http://www.instagram.com/TruFitAutoGlass/'
 ]
 
 const navItems = ['home', 'about', 'contact', 'file a claim']
@@ -25,9 +25,10 @@ class PageFooter extends Component {
               <img src={this.props.footerLogo} alt=""/>
             </div>
             <div className='mission-container'>
-              <p>Lorem ipsum blah blah blah. Some catchy mission
-                statement. blah blah blah. Ooooo Cool, yeah blah
-                blag de blah.blah blah. Ooooo Cool, yeah blah
+              <p>
+                TruFit AutoGlass is a full service repair and replacement company.
+                From rock chip repairs to full windshield replacements,
+                we are here to keep you safe and on the road.
               </p>
             </div>
           </div>
@@ -44,8 +45,8 @@ class PageFooter extends Component {
               <img src={map} alt='TRUFIT Autoglass'/>
             </div>
             <div className='address-container'>
-              <span>112 Carriage Lane</span>
-              <span> Midway, KY USA</span>
+              {/*<span>928 Willow Pointe Drive</span>*/}
+              <span> Louisville, KY USA</span>
               <span>(502)667-0182</span>
             </div>
           </div>
