@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className='page-container animated fadeIn'>
-          <PageHeader headerLogo={logo} buttonCopy='File a claim'/>
+          <PageHeader headerLogo={logo} buttonCopy='Get Started'/>
           <Main/>
           <div className='center-row'>
             <PageFooter footerLogo={logo}/>

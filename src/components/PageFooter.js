@@ -12,7 +12,7 @@ const socialUrls = [
   'http://www.instagram.com/TruFitAutoGlass/'
 ]
 
-const navItems = ['home', 'about', 'contact', 'file a claim']
+const navItems = ['about', 'services', 'coverage', 'contact', 'file a claim']
 
 class PageFooter extends Component {
 

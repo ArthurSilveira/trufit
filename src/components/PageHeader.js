@@ -33,7 +33,7 @@ class PageHeader extends Component {
           <div className={`${dropdownMenuClass}`}>
             <Navbar dropdownStyle={true} menuItems={this.props.menuItems} toggleDropdown={this.toggleDropdown.bind(this)}/>
             <nav className='dropdown-button'>
-              <Link to='/claim' className='trufit-button'>{this.props.buttonCopy}</Link>
+              <Link to='/contact' onClick={this.closeDropdown} className='trufit-button'>{this.props.buttonCopy}</Link>
             </nav>
           </div>
         </div>
@@ -42,10 +42,11 @@ class PageHeader extends Component {
   }
 
   render () {
-    console.log('now the state is: ', this.state.dropdownOpen)
+    // console.log('now the state is: ', this.state.dropdownOpen)
     let burgerButtonState = this.state.dropdownOpen? 'close' : 'open'
     return (
       <header className='animated'>
+        <div className='mobile-phone-number animated fadeInDownBig hide-for-medium'>(502)667-0182</div>
         <div className='center-row head-container'>
           <div className='head-inner animated fadeInDownBig'>
             <Link to='/' onClick={this.closeDropdown.bind(this)}>

@@ -57,7 +57,7 @@ const Home = () => (
       <h5>Just fill out our easy form and our professionals will  handle the rest.</h5>
       <br/>
       <nav className='dropdown-button'>
-        <Link to='/claim' className='trufit-button'>Get Started</Link>
+        <Link to='/contact' className='trufit-button'>Get Started</Link>
       </nav>
       <br/>
       <br/>

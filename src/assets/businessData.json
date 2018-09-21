@@ -1,219 +1,254 @@
 {
-   "html_attributions" : [],
-   "result" : {
-      "address_components" : [
+   "html_attributions": [],
+   "result": {
+      "address_components": [
          {
-            "long_name" : "928",
-            "short_name" : "928",
-            "types" : [ "street_number" ]
+            "long_name": "928",
+            "short_name": "928",
+            "types": [
+               "street_number"
+            ]
          },
          {
-            "long_name" : "Willow Pointe Drive",
-            "short_name" : "Willow Pointe Dr",
-            "types" : [ "route" ]
+            "long_name": "Willow Pointe Drive",
+            "short_name": "Willow Pointe Dr",
+            "types": [
+               "route"
+            ]
          },
          {
-            "long_name" : "Louisville",
-            "short_name" : "Louisville",
-            "types" : [ "locality", "political" ]
+            "long_name": "Louisville",
+            "short_name": "Louisville",
+            "types": [
+               "locality",
+               "political"
+            ]
          },
          {
-            "long_name" : "Woodford County",
-            "short_name" : "Woodford County",
-            "types" : [ "administrative_area_level_2", "political" ]
+            "long_name": "Jefferson County",
+            "short_name": "Jefferson County",
+            "types": [
+               "administrative_area_level_2",
+               "political"
+            ]
          },
          {
-            "long_name" : "Kentucky",
-            "short_name" : "KY",
-            "types" : [ "administrative_area_level_1", "political" ]
+            "long_name": "Kentucky",
+            "short_name": "KY",
+            "types": [
+               "administrative_area_level_1",
+               "political"
+            ]
          },
          {
-            "long_name" : "United States",
-            "short_name" : "US",
-            "types" : [ "country", "political" ]
+            "long_name": "United States",
+            "short_name": "US",
+            "types": [
+               "country",
+               "political"
+            ]
          },
          {
-            "long_name" : "40299",
-            "short_name" : "40299",
-            "types" : [ "postal_code" ]
+            "long_name": "40299",
+            "short_name": "40299",
+            "types": [
+               "postal_code"
+            ]
          }
       ],
-      "adr_address" : "\u003cspan class=\"street-address\"\u003e928 Willow Pointe Dr\u003c/span\u003e, \u003cspan class=\"locality\"\u003eLouisville\u003c/span\u003e, \u003cspan class=\"region\"\u003eKY\u003c/span\u003e \u003cspan class=\"postal-code\"\u003e40299\u003c/span\u003e, \u003cspan class=\"country-name\"\u003eUSA\u003c/span\u003e",
-      "formatted_address" : "928 Willow Pointe Dr, Louisville, KY 40299, USA",
-      "formatted_phone_number" : "(502) 667-0182",
-      "geometry" : {
-         "location" : {
-            "lat" : 38.2290243,
-            "lng" : -85.5188009
+      "adr_address": "<span class=\"street-address\">928 Willow Pointe Dr</span>, <span class=\"locality\">Louisville</span>, <span class=\"region\">KY</span> <span class=\"postal-code\">40299</span>, <span class=\"country-name\">USA</span>",
+      "formatted_address": "928 Willow Pointe Dr, Louisville, KY 40299, USA",
+      "formatted_phone_number": "(502) 667-0182",
+      "geometry": {
+         "location": {
+            "lat": 38.2290243,
+            "lng": -85.5188009
          },
-         "viewport" : {
-            "northeast" : {
-               "lat" : 38.2303732802915,
-               "lng" : -85.51745191970851
+         "viewport": {
+            "northeast": {
+               "lat": 38.2304844802915,
+               "lng": -85.5174903697085
             },
-            "southwest" : {
-               "lat" : 38.2276753197085,
-               "lng" : -85.52014988029151
+            "southwest": {
+               "lat": 38.2277865197085,
+               "lng": -85.52018833029152
             }
          }
       },
-      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
-      "id" : "f704c23fbc7f03743a9809689c1836daccfee33f",
-      "international_phone_number" : "+1 502-667-0182",
-      "name" : "TruFit Auto Glass",
-      "opening_hours" : {
-         "open_now" : true,
-         "periods" : [
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+      "id": "f704c23fbc7f03743a9809689c1836daccfee33f",
+      "international_phone_number": "+1 502-667-0182",
+      "name": "TruFit Auto Glass",
+      "opening_hours": {
+         "open_now": true,
+         "periods": [
             {
-               "close" : {
-                  "day" : 1,
-                  "time" : "1900"
+               "close": {
+                  "day": 1,
+                  "time": "1800"
                },
-               "open" : {
-                  "day" : 1,
-                  "time" : "0800"
+               "open": {
+                  "day": 1,
+                  "time": "0800"
                }
             },
             {
-               "close" : {
-                  "day" : 2,
-                  "time" : "1900"
+               "close": {
+                  "day": 2,
+                  "time": "1800"
                },
-               "open" : {
-                  "day" : 2,
-                  "time" : "0800"
+               "open": {
+                  "day": 2,
+                  "time": "0800"
                }
             },
             {
-               "close" : {
-                  "day" : 3,
-                  "time" : "1900"
+               "close": {
+                  "day": 3,
+                  "time": "1800"
                },
-               "open" : {
-                  "day" : 3,
-                  "time" : "0800"
+               "open": {
+                  "day": 3,
+                  "time": "0800"
                }
             },
             {
-               "close" : {
-                  "day" : 4,
-                  "time" : "1900"
+               "close": {
+                  "day": 4,
+                  "time": "1800"
                },
-               "open" : {
-                  "day" : 4,
-                  "time" : "0800"
+               "open": {
+                  "day": 4,
+                  "time": "0800"
                }
             },
             {
-               "close" : {
-                  "day" : 5,
-                  "time" : "1900"
+               "close": {
+                  "day": 5,
+                  "time": "1800"
                },
-               "open" : {
-                  "day" : 5,
-                  "time" : "0800"
+               "open": {
+                  "day": 5,
+                  "time": "0800"
                }
             },
             {
-               "close" : {
-                  "day" : 6,
-                  "time" : "1700"
+               "close": {
+                  "day": 6,
+                  "time": "1600"
                },
-               "open" : {
-                  "day" : 6,
-                  "time" : "1000"
+               "open": {
+                  "day": 6,
+                  "time": "1000"
                }
             }
          ],
-         "weekday_text" : [
-            "Monday: 8:00 AM – 7:00 PM",
-            "Tuesday: 8:00 AM – 7:00 PM",
-            "Wednesday: 8:00 AM – 7:00 PM",
-            "Thursday: 8:00 AM – 7:00 PM",
-            "Friday: 8:00 AM – 7:00 PM",
-            "Saturday: 10:00 AM – 5:00 PM",
+         "weekday_text": [
+            "Monday: 8:00 AM – 6:00 PM",
+            "Tuesday: 8:00 AM – 6:00 PM",
+            "Wednesday: 8:00 AM – 6:00 PM",
+            "Thursday: 8:00 AM – 6:00 PM",
+            "Friday: 8:00 AM – 6:00 PM",
+            "Saturday: 10:00 AM – 4:00 PM",
             "Sunday: Closed"
          ]
       },
-      "photos" : [
+      "photos": [
          {
-            "height" : 312,
-            "html_attributions" : [
-               "\u003ca href=\"https://maps.google.com/maps/contrib/101259374682312513451/photos\"\u003eTruFit Auto Glass\u003c/a\u003e"
+            "height": 2560,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/101801834526732510823/photos\">Lisa Sole</a>"
             ],
-            "photo_reference" : "CmRaAAAAhmtTC15d_JwwRRH_8E6FMQZwZVEkctT-XOj-KSBLO0RntUeA8CDiRmebpRbwahRxGwl8SPAGINqdZ4deamc4UfbN_i6JN5YrThMwD83ZQ0YEsWMxTjXSu7rMwx9yXYjeEhCFhVoBWpK_b0IQfRS05SnKGhQFY8DrFrZ2eD3U-nCZK5ZwD4Euzw",
-            "width" : 528
+            "photo_reference": "CmRaAAAAFUdteuCn4TMzwVC_sd6OP0sFwrMo_drtqhptTUQMMU-NddOBVCsqbO7JPBHD8U-VRyPJcxCDqdmAfVQDoNWkxyg3O6-iPqTTf61yg0_eeFGqv0mcrS7yiiCsWbME23zcEhD_U2cS9mR0CEw8l5cnh5XbGhTsSmgoDAaSk0O6D37s0b3wR55U0Q",
+            "width": 1440
          },
          {
-            "height" : 2560,
-            "html_attributions" : [
-               "\u003ca href=\"https://maps.google.com/maps/contrib/101801834526732510823/photos\"\u003eLisa Sole\u003c/a\u003e"
+            "height": 312,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/101259374682312513451/photos\">TruFit Auto Glass</a>"
             ],
-            "photo_reference" : "CmRaAAAAMhoawF35pMi0YL-Vse7AFMqAoAkWwJn4mwD9Z8LZ0xLxE4F3Y7uuKal2-RDRbSFGRgrLcEpGpBpv_aY8uKCnJ0GPsBM5eooLiBZMKLGbYysOlooBaEFzAacdIS_Xd9xsEhACttFQfcz_crLipmZ4AhhAGhT9gmzRhcXjS811k2kKAOiF0V1YFg",
-            "width" : 1440
+            "photo_reference": "CmRaAAAA63Lxfn4o1ZfX-V-vhedBbc2E1HjWMeZAI0XVapPN5-8q495S8zNt9UjL6I_ECKJLp472A0aSWsPK44mDxGgs7O9NtTCVclP_0Q8wE5Y2vn__FrvoDxAGMiIdSMy34NvBEhDczA_klaVEjb4c9Lj49xD_GhRrTlJBk1MDRGAMoIooviaOGXWf4Q",
+            "width": 528
+         },
+         {
+            "height": 250,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/101259374682312513451/photos\">TruFit Auto Glass</a>"
+            ],
+            "photo_reference": "CmRaAAAAjhKLkZ59CqUum9ht7VLnOwYZUuoYs9cRLyUA_3Tg-_ddloWBh9HjuFQH5riLgkvXC69xW8VTnsbVGABFUeSWwvRdTtEjij0c-Md5c2YYB1ybfw9bv_7nGo0fmOednSy7EhAm60VRqgp16BOJX-fFaY3pGhQJB88ZbX0hEQJqZ-rvBBA_ZHXlcw",
+            "width": 250
          }
       ],
-      "place_id" : "ChIJfZVRMJxrQogRr0Syoah9gco",
-      "rating" : 5,
-      "reference" : "CmRSAAAAoOF9g79jL0ec6jWhbpmDdkqWsZOxQ-NpTSfxQ86o8xSYPQFcux8PlYdaKpZDmr8aDU_gb_wyRUfeEe7id8LC15XfkoVPOeIFzAOsyc-BSs1J9uYhOVVTHFmzKb8ke-GpEhDWH0kDX06xv-LneyvhmukDGhTlloQq1VuMQF7v5GY44ccDvIjaXQ",
-      "reviews" : [
+      "place_id": "ChIJfZVRMJxrQogRr0Syoah9gco",
+      "plus_code": {
+         "compound_code": "6FHJ+JF Middletown, Kentucky, United States",
+         "global_code": "86CP6FHJ+JF"
+      },
+      "rating": 5,
+      "reference": "ChIJfZVRMJxrQogRr0Syoah9gco",
+      "reviews": [
          {
-            "author_name" : "Rachel Glenn",
-            "author_url" : "https://www.google.com/maps/contrib/117059198002213349757/reviews",
-            "language" : "en",
-            "profile_photo_url" : "https://lh6.googleusercontent.com/-AZvkAJKok-U/AAAAAAAAAAI/AAAAAAAADcM/eL0Z9Oz61wQ/s128-c0x00000000-cc-rp-mo/photo.jpg",
-            "rating" : 5,
-            "relative_time_description" : "2 months ago",
-            "text" : "Quality work performed in a timely fashion. Matthew was communicative and personable throughout the process. If I ever need another window or windshield replaced in my car, I would absolutely use this company again. Highly recommend.",
-            "time" : 1520432424
+            "author_name": "Jen Jones",
+            "author_url": "https://www.google.com/maps/contrib/118194196424423518128/reviews",
+            "language": "en",
+            "profile_photo_url": "https://lh5.googleusercontent.com/-r_9Wsj81BuI/AAAAAAAAAAI/AAAAAAAACmk/RuyJK0GKAdw/s128-c0x00000000-cc-rp-mo/photo.jpg",
+            "rating": 5,
+            "relative_time_description": "a month ago",
+            "text": "Matt called me soon after I spoke with my insurance company about replacing my damaged windshield.  The next day, Brad came to my house and completed the replacement.  He was early, personable, and gave me important after-care instructions.  The windshield looks great!  I would definitely use TruFit again.",
+            "time": 1533746513
          },
          {
-            "author_name" : "Michael Ojeda",
-            "author_url" : "https://www.google.com/maps/contrib/111258756234690104542/reviews",
-            "language" : "en",
-            "profile_photo_url" : "https://lh3.googleusercontent.com/-4g4bonq9I-0/AAAAAAAAAAI/AAAAAAAAAoo/jLvf1zaoeao/s128-c0x00000000-cc-rp-mo/photo.jpg",
-            "rating" : 5,
-            "relative_time_description" : "4 months ago",
-            "text" : "My entire experience with TruFit was a pleasure! They make it easy to get the job done! \n\nMatthew kept me up to date with my appointment time frame, followed through with telephone reminders and confirmations, and I feel that they really kept my own schedule in consideration when booking the time slot.",
-            "time" : 1515700988
+            "author_name": "Jim Hytken",
+            "author_url": "https://www.google.com/maps/contrib/105931047584514297781/reviews",
+            "language": "en",
+            "profile_photo_url": "https://lh3.googleusercontent.com/-OnT6_T1IuRQ/AAAAAAAAAAI/AAAAAAAAAAA/RSZTutlUsJs/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+            "rating": 5,
+            "relative_time_description": "in the last week",
+            "text": "Brad showed up on time and in about 45 minutes the windshield of my car had been completely replaced and was looking great! Brad was very polite and friendly, and even vacuumed the car after he finished. A true professional. I guess all that is left is to see how the windshield holds up over time.",
+            "time": 1536696699
          },
          {
-            "author_name" : "Michael Linton",
-            "author_url" : "https://www.google.com/maps/contrib/107074561715436181344/reviews",
-            "language" : "en",
-            "profile_photo_url" : "https://lh6.googleusercontent.com/-uNVrFxk69yI/AAAAAAAAAAI/AAAAAAAAAAA/AIcfdXCYsv9ML6Hg4F41lbnLWn4jqqJ6dA/s128-c0x00000000-cc-rp-mo/photo.jpg",
-            "rating" : 5,
-            "relative_time_description" : "5 months ago",
-            "text" : "This was the first and only call I needed to make in order to replace a shattered back window. Matthew Morrison was incredibly professional, upstanding, and ready to help me fix the issue. He picked up and scheduled a repair in the first phone call. He was able to complete the job and be on site in less than 2 hours.",
-            "time" : 1513180432
+            "author_name": "George Klempner",
+            "author_url": "https://www.google.com/maps/contrib/112802734411766219257/reviews",
+            "language": "en",
+            "profile_photo_url": "https://lh4.googleusercontent.com/-zFgrVk2pt-U/AAAAAAAAAAI/AAAAAAAAADU/rB-dkYBpgFc/s128-c0x00000000-cc-rp-mo/photo.jpg",
+            "rating": 5,
+            "relative_time_description": "a month ago",
+            "text": "Excellent Job!  Brad was very polite and professional.  He also replaced my wife's windshield a month ago and she experienced the same service.  Highly recommend.  Support your local businesses!",
+            "time": 1533819495
          },
          {
-            "author_name" : "Brandy Gibson",
-            "author_url" : "https://www.google.com/maps/contrib/101572648473076906990/reviews",
-            "language" : "en",
-            "profile_photo_url" : "https://lh5.googleusercontent.com/-c43-LN_dRmA/AAAAAAAAAAI/AAAAAAAAABA/DOOxPjDi2Ac/s128-c0x00000000-cc-rp-mo/photo.jpg",
-            "rating" : 5,
-            "relative_time_description" : "5 months ago",
-            "text" : "Matthew is fantastic! He has helped me a couple of times and each time he was prompt, professional and always a pleasure to work with. I highly recommend this company when in need. Thank you so much Matthew for your help! You truly do care about the community.",
-            "time" : 1511799235
+            "author_name": "Tonia Gerald",
+            "author_url": "https://www.google.com/maps/contrib/102600963815998866875/reviews",
+            "language": "en",
+            "profile_photo_url": "https://lh3.googleusercontent.com/-P6NdEAEAuDk/AAAAAAAAAAI/AAAAAAAAAAA/APUIFaOUfV3IFNbQFburZeNbXhGm9Q5bSw/s128-c0x00000000-cc-rp-mo/photo.jpg",
+            "rating": 5,
+            "relative_time_description": "a month ago",
+            "text": "Outstanding service!! Excellent job! Very prompt and professional, from setting up the appointment to the actual installation. Brad installed the windshield in my Jeep Renegade while we were at football practice. Great job!! I highly recommend Trufit Auto Glass!!",
+            "time": 1534515761
          },
          {
-            "author_name" : "Lisa Reynolds",
-            "author_url" : "https://www.google.com/maps/contrib/117325594425448820253/reviews",
-            "language" : "en",
-            "profile_photo_url" : "https://lh4.googleusercontent.com/-qWDiijatxiw/AAAAAAAAAAI/AAAAAAAAAAA/AIcfdXBfNwcolNrP-ND7rWDTHODrQxVMkQ/s128-c0x00000000-cc-rp-mo/photo.jpg",
-            "rating" : 5,
-            "relative_time_description" : "7 months ago",
-            "text" : "Matthew is a perfectionist! He is also very knowledgeable, professional, efficient and genuine. He replaced the windshield in my husband's truck in the parking lot of my work.  A job well done!",
-            "time" : 1508255457
+            "author_name": "Mary Jane McCarty",
+            "author_url": "https://www.google.com/maps/contrib/104960755603520078845/reviews",
+            "language": "en",
+            "profile_photo_url": "https://lh5.googleusercontent.com/-uEFnTH-cSh8/AAAAAAAAAAI/AAAAAAAAAAA/APUIFaPHSVyBU9Wp6XSXv4nJrJR9CHKTEQ/s128-c0x00000000-cc-rp-mo/photo.jpg",
+            "rating": 5,
+            "relative_time_description": "a month ago",
+            "text": "Brad from Trufit came out this morning and replaced the windshield in our Mercedes.  He was great.  Courteous, and informative while completing the process.  He was prompt and efficient.  I would highly recommend this company.",
+            "time": 1534171100
          }
       ],
-      "scope" : "GOOGLE",
-      "types" : [ "car_repair", "point_of_interest", "establishment" ],
-      "url" : "https://maps.google.com/?cid=14592082430877910191",
-      "utc_offset" : -240,
-      "vicinity" : "928 Willow Pointe Drive, Louisville",
-      "website" : "http://www.trufitautoglass.com/"
+      "scope": "GOOGLE",
+      "types": [
+         "car_repair",
+         "store",
+         "point_of_interest",
+         "establishment"
+      ],
+      "url": "https://maps.google.com/?cid=14592082430877910191",
+      "utc_offset": -240,
+      "vicinity": "928 Willow Pointe Drive, Louisville",
+      "website": "http://www.trufitautoglass.com/"
    },
-   "status" : "OK"
+   "status": "OK"
 }

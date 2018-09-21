@@ -1,3 +1,7 @@
+.services-wrapper {
+  margin-bottom: 3em;
+}
+
 .services-content {
   display: flex;
   justify-content: space-between;

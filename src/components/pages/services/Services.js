@@ -5,7 +5,7 @@ import servicesPhoto2 from '../../../assets/images/tf-photo-services-2.jpg'
 
 const Services = () => (
   <div className='center-row'>
-    <div className='section-wrapper'>
+    <div className='section-wrapper services-wrapper'>
       <div className='section-title animated bounceInLeft'>What we do</div>
       <div className='services-content'>
         <div className='services-left-side'>
@@ -33,7 +33,6 @@ const Services = () => (
             <span className='services-phone-number'>(502)667-0182</span>
             <span className='services-email'>info@trufitautoglass.com</span>
             <span className='section-subtitle'>Text or call us to schedule your appointment</span>
-
           </div>
         </div>
       </div>
