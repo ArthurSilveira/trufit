@@ -24,9 +24,11 @@ const Contact = () => (
 
         </div>
         <div className='contact-right'>
-          <div className='contact-map-container show-for-medium'>
-            <img src={contactMap} alt="404"/>
-          </div>
+          <a href="https://goo.gl/maps/awx2uaqi8862">
+            <div className='contact-map-container show-for-medium'>
+              <img src={contactMap} alt="404"/>
+            </div>
+          </a>
           <div className='services-info'>
             <span className='section-subtitle'>928 Willow Pointe Drive</span>
             <span className='section-subtitle'>Louisville, KY</span>

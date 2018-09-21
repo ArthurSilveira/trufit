@@ -61,7 +61,7 @@ class PageHeader extends Component {
               <Navbar menuItems={this.props.menuItems}/>
             </div>
             <nav className='nav-component show-for-medium'>
-              <Link to='/claim' className='head-button'>{this.props.buttonCopy}</Link>
+              <Link to='/contact' className='head-button'>{this.props.buttonCopy}</Link>
             </nav>
             <nav className='nav-component hide-for-medium'>
               <a className='show-dropdown-button' onClick={this.toggleDropdown.bind(this)}>

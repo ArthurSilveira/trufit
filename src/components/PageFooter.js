@@ -12,7 +12,7 @@ const socialUrls = [
   'http://www.instagram.com/TruFitAutoGlass/'
 ]
 
-const navItems = ['about', 'services', 'coverage', 'contact', 'file a claim']
+const navItems = ['about', 'services', 'coverage', 'contact']
 
 class PageFooter extends Component {
 
@@ -42,7 +42,9 @@ class PageFooter extends Component {
 
           <div className='location-container show-for-medium'>
             <div className='map-container'>
-              <img src={map} alt='TRUFIT Autoglass'/>
+              <a href="https://goo.gl/maps/awx2uaqi8862">
+                <img src={map} alt='TRUFIT Autoglass'/>
+              </a>
             </div>
             <div className='address-container'>
               {/*<span>928 Willow Pointe Drive</span>*/}
