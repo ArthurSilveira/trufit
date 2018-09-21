@@ -15,7 +15,7 @@ const Contact = () => (
             <input type='hidden' name='bot-field' />
 
             <input type='email' name='email' placeholder='Your email'/>
-            <input type='text' name='subject' placeholder='Subject'/>
+            <input type='text' name='name' placeholder='Your name'/>
             <textarea name='message' placeholder='How can we help you today?'/>
             <div className='form-button-container'>
               <button className='trufit-button' type='submit'>send</button>
