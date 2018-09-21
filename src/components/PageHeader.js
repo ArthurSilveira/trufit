@@ -46,7 +46,9 @@ class PageHeader extends Component {
     let burgerButtonState = this.state.dropdownOpen? 'close' : 'open'
     return (
       <header className='animated'>
-        <div className='mobile-phone-number animated fadeInDownBig hide-for-medium'>(502)667-0182</div>
+        <div className='mobile-phone-number animated fadeInDownBig hide-for-medium'>
+          <a href='tel:5025570182'>(502)667-0182</a>
+        </div>
         <div className='center-row head-container'>
           <div className='head-inner animated fadeInDownBig'>
             <Link to='/' onClick={this.closeDropdown.bind(this)}>
