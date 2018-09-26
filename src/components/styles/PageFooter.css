@@ -27,6 +27,8 @@
 
 .footer-image {
   width: 150px;
+  height: auto;
+  max-height: 60px;
 }
 
 .mission-container {

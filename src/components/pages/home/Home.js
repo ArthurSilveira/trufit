@@ -49,8 +49,10 @@ const Home = () => (
       <br/>
       <br/>
       <br/>
-      <div className='bottom-cta-img'>
-        <img src={glassFix} alt="404"/>
+      <div className='center-row'>
+        <div className='bottom-cta-img'>
+          <img src={glassFix} alt="404"/>
+        </div>
       </div>
       <br/>
       <br/>

@@ -6,6 +6,10 @@ import _ from 'lodash'
 
 class Navbar extends Component {
 
+  toggleSelection(id) {
+
+  }
+
 
   renderMenuItems(menuItems) {
     return _.map(menuItems, (item, key) => {

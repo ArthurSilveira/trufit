@@ -21,6 +21,10 @@
   padding: 0 1em;
 }
 
+.center-row > div {
+  width: 100%;
+}
+
 .section-wrapper {
   text-align: left;
   font-weight: 500;
