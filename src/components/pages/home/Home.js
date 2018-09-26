@@ -14,7 +14,7 @@ const landingCardsInfo = [
     id: 'certificate',
     icon: ribbonIcon,
     title: 'Certified Technicians',
-    text: 'All of our technicians are vastly experienced and certified by the Auto Glass Safety Council (AGSC).',
+    text: 'All of our technicians are vastly experienced and certified by the Auto Glass Safety Council <a href="https://agsc.org/">(AGSC)</a>.',
   },
   {
     id: 'quality',
@@ -26,7 +26,7 @@ const landingCardsInfo = [
     id: 'customer-service',
     icon: starIcon,
     title: 'Outstanding Service',
-    text: 'We are perfectionists and take great pride in providing the best service and customer experience around.'
+    text: 'We are perfectionists and take great pride in providing the <a href="https://goo.gl/maps/Y84LXuBhD752">best service</a> and customer experience around.'
   }
 ]
 

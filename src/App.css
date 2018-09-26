@@ -40,6 +40,10 @@
   font-weight: 600;
 }
 
+.section-subtitle > p > a {
+  color: #0066ff;
+}
+
 .hide {
   display: none  !important;
 }

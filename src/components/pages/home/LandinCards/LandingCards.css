@@ -24,6 +24,10 @@
   font-size: .9em;
 }
 
+.card-text > a {
+  color: #0066ff;
+}
+
 @media screen and (max-width: 45em) {
   .landing-cards {
     /*background: #0d71bb;*/

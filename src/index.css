@@ -22,7 +22,7 @@ img {
 
 a, button {
   cursor: pointer;
-  color: #53585f !important;
+  color: #53585f;
   text-transform: capitalize;
   text-decoration: none;
 }

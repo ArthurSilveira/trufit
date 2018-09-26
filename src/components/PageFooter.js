@@ -7,9 +7,10 @@ import map from '../assets/map.png'
 import { Link } from 'react-router-dom'
 
 const socialUrls = [
-  'http://twitter.com/TruFitAutoGlass',
+  'https://www.yelp.com/biz/trufit-autoglass-louisville-2',
   'https://www.facebook.com/TruFitAutoGlass/',
-  'http://www.instagram.com/TruFitAutoGlass/'
+  'http://www.instagram.com/TruFitAutoGlass/',
+  'https://goo.gl/maps/Y84LXuBhD752'
 ]
 
 const navItems = ['about', 'services', 'coverage', 'contact']
@@ -49,7 +50,8 @@ class PageFooter extends Component {
             <div className='address-container'>
               {/*<span>928 Willow Pointe Drive</span>*/}
               <span> Louisville, KY USA</span>
-              <span>(502)667-0182</span>
+              <span><a href="tel:5026670182">(502)667-0182</a></span>
+              <span><a href="mailto:info@trufitautoglass.com">info@trufitautoglass.com</a></span>
             </div>
           </div>
 

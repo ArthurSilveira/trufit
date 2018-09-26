@@ -20,6 +20,10 @@
   width: 50%;
 }
 
+.services-right-side > p > a {
+  color: #0066ff;
+}
+
 .services-info {
   display: flex;
   flex-flow: column;
@@ -27,15 +31,21 @@
 }
 
 .services-phone-number {
+  margin: .5em 0;
+}
+
+.services-phone-number > a {
   font-size: 1.8em;
   font-weight: 800;
   color: #00cc66;
-  margin: .3em 0;
 }
 
 .services-email {
-  color: #0066ff;
   margin-bottom: .3em;
+}
+
+.services-email > a{
+  color: #0066ff;
 }
 
 @media screen and (max-width: 45em) {

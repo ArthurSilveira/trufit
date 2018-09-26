@@ -30,8 +30,8 @@ const Services = () => (
             <img src={servicesPhoto} alt="404"/>
           </div>
           <div className='services-info'>
-            <span className='services-phone-number'>(502)667-0182</span>
-            <span className='services-email'>info@trufitautoglass.com</span>
+            <span className='services-phone-number'><a href="tel:5026670182">(502)667-0182</a></span>
+            <span className='services-email'><a href="mailto:info@trufitautoglass.com">info@trufitautoglass.com</a></span>
             <span className='section-subtitle'>Text or call us to schedule your appointment</span>
           </div>
         </div>
@@ -58,7 +58,7 @@ const Services = () => (
           <div className='section-subtitle'>Quality Guaranteed</div>
           <p>
             TruFit AutoGlass uses only the highest quality replacement products.
-            Every TruFit AutoGlass technician is professionally trained and certified (Auto Glass Safety Council certified) in the latest installation and repair procedures,
+            Every TruFit AutoGlass technician is professionally trained and certified <a href="https://agsc.org/">(Auto Glass Safety Council certified)</a> in the latest installation and repair procedures,
             so you can rest assured that your auto glass will be as good as new.
           </p>
         </div>
