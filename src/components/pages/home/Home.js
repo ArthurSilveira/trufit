@@ -7,7 +7,8 @@ import ribbonIcon from '../../../assets/icons/certificate-icon.svg'
 import shieldIcon from '../../../assets/icons/guarantee-icon.svg'
 import starIcon from '../../../assets/icons/quality-icon.svg'
 import glassFix from '../../../assets/glass-fix.svg'
-import landingPhoto from '../../../assets/images/landing-photo.jpg'
+import landingPhoto from '../../../assets/images/tf-photo-1.jpg'
+import landingPhoto1 from '../../../assets/images/tf-photo-2.jpg' 
 
 const landingCardsInfo = [
   {
@@ -43,6 +44,11 @@ const Home = () => (
     <hr/>
     <div className='center-row'>
       <LandingCards info={landingCardsInfo}/>
+    </div>
+    <div className='entire-viewport'>
+      <div className='photo'>
+        <img src={landingPhoto1} alt="404"/>
+      </div>
     </div>
     <div className='bottom-cta'>
       <br/>

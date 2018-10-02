@@ -6,7 +6,7 @@
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 2em;
+  padding: 2em 0;
 }
 
 .footer-inner {

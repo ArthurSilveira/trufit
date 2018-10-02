@@ -5,12 +5,13 @@ hr {
 }
 
 .photo {
-  max-height: 30em;
+  max-height: 32em;
   width: 100%;
   overflow: hidden;
 }
 
 .photo > img {
+  transform: translateY(-5%);
   width: 100%;
   height: auto;
 }
@@ -35,11 +36,12 @@ h5 {
 
 @media screen and (max-width: 45.5em) {
   .photo {
-    height: 15em;
+    height: 14em;
   }
   .photo > img {
     width: 100%;
     height: auto;
+    transform: translateY(0%);
   }
   h5 {
     padding: 1em 2em;
