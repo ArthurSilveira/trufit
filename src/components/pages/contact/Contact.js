@@ -17,6 +17,7 @@ const Contact = () => (
             <input type='email' name='email' placeholder='Your email'/>
             <input type='text' name='name' placeholder='Your name'/>
             <textarea name='message' placeholder='How can we help you today?'/>
+            <div data-netlify-recaptcha></div>
             <div className='form-button-container'>
               <button className='trufit-button' type='submit'>send</button>
             </div>
