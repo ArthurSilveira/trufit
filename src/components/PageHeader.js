@@ -47,7 +47,7 @@ class PageHeader extends Component {
     return (
       <header className='animated'>
         <div className='mobile-phone-number animated fadeInDownBig hide-for-medium'>
-          <a href='tel:5025570182'>(502)667-0182</a>
+          <a href='tel:5026670182'>(502)667-0182</a>
         </div>
         <div className='center-row head-container'>
           <div className='head-inner animated fadeInDownBig'>
