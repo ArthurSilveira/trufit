@@ -31,8 +31,9 @@ const Contact = () => (
             </div>
           </a>
           <div className='services-info'>
-            <span className='section-subtitle'><a href="https://goo.gl/maps/awx2uaqi8862">928 Willow Pointe Drive</a></span>
-            <span className='section-subtitle'>Louisville, KY</span>
+            <span className='section-subtitle'><a href="https://goo.gl/maps/awx2uaqi8862">500 N English Station Rd</a></span>
+            <span className='section-subtitle'><a href="https://goo.gl/maps/awx2uaqi8862">Unit 103</a></span>
+            <span className='section-subtitle'>Louisville, KY 40223</span>
             <span className='services-phone-number'><a href="tel:5026670182">(502)667-0182</a></span>
             <span className='services-email'><a href="mailto:info@trufitautoglass.com">info@trufitautoglass.com</a></span>
           </div>

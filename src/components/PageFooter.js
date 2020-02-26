@@ -48,8 +48,9 @@ class PageFooter extends Component {
               </a>
             </div>
             <div className='address-container'>
-              {/*<span>928 Willow Pointe Drive</span>*/}
-              <span> Louisville, KY USA</span>
+              <span>500 N English Station Rd</span>
+              <span>Unit 103</span>
+              <span> Louisville, KY 40223</span>
               <span><a href="tel:5026670182">(502)667-0182</a></span>
               <span><a href="mailto:info@trufitautoglass.com">info@trufitautoglass.com</a></span>
             </div>
